@@ -6,7 +6,7 @@ This project is a Java-based simulation of a CPU scheduler. It demonstrates vari
 
 ## Overview
 
-The CPU Scheduler Simulator is designed to emulate how an operating system schedules processes. Processes are represented as instances of a Process Control Block (PCB) and are managed using different scheduling algorithms. The project also includes a basic simulation of system calls to further emulate operating system behavior.
+The CPU Scheduler Simulator is designed to emulate how an operating system schedules processes. Processes are represented as instances of a Process Control Block (PCB) and are managed using different scheduling algorithms. The project also includes a basic simulation of system calls to emulate operating system behavior further.
 
 ---
 
