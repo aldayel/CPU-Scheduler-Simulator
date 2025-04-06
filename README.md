@@ -1,6 +1,6 @@
 # CPU Scheduler Simulator
 
-This project is a Java-based simulation of a CPU scheduler. It demonstrates various scheduling algorithms, including First-Come-First-Serve (FCFS), Round-Robin (RR), and Priority Scheduling with basic starvation handling. The simulator integrates simple system call simulations to mimic process creation, waiting, and termination.
+This project is a Java-based simulation of a CPU scheduler. It demonstrates various scheduling algorithms, including First-Come-First-Served (FCFS), Round-Robin (RR), and Priority Scheduling with basic starvation handling. The simulator integrates simple system call simulations to mimic process creation, waiting, and termination.
 
 ---
 
@@ -26,7 +26,7 @@ The CPU Scheduler Simulator is designed to emulate how an operating system sched
 ## Project Structure
 
 - **CPU_Scheduler.java:**  
-  The main class that orchestrates the simulation. It handles process loading, queues management, scheduling algorithms, and Gantt chart visualization.  
+  The main class that orchestrates the simulation. It handles process loading, queue management, scheduling algorithms, and Gantt chart visualization.  
   citeturn0file0
 
 - **PCB.java:**  
@@ -101,4 +101,4 @@ Example:
 2:15;1;150
 ```
 
-Processes that exceed the available memory limit (set to 2048 MB) will be skipped with an appropriate message.
+Processes exceeding the available memory limit (2048 MB) will be skipped with an appropriate message.
